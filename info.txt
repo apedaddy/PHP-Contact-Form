@@ -1,0 +1,4 @@
+This contact form is all working,
+Please change email address in the line - 30
+Where it says
+        $emailTo = "youremail@yourdomain.com";

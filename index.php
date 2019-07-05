@@ -27,7 +27,7 @@ if ($_POST) {
         $error = '<div class="alert alert-danger" role="alert">
         <strong>Sorry! PHP Generated</strong> <p>Please fix following errors and try submitting again.</p>' . $error . '</div>';
     }else{
-        $emailTo = "gbpremi@gmail.com";
+        $emailTo = "youremail@yourdomain.com";
         $subject = $_POST['subject'];
         $content = $_POST['contact'];
         $header = "From ".$_POST['email'];
